@@ -1,0 +1,287 @@
+/* canvas{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 800px;
+        background-color: gray;
+} */
+
+
+
+body, html {
+    height:fit-content;
+  }
+
+.full{
+    background-image:url('./resouce/pic/background/farm.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    text-align: center; 
+}
+
+.text-modal{
+    font-size: 24px;
+    color: black;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-block-1{
+    position: absolute;
+    bottom: 475px;
+    left: 185px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block-2{
+    position: absolute;
+    bottom: 475px;
+    left: 660px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block-3{
+    position: absolute;
+    bottom: 475px;
+    right: 660px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-4{
+    position: absolute;
+    bottom: 475px;
+    right: 190px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-5{
+    position: absolute;
+    bottom: 155px;
+    left: 180px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+
+.text-block-6{
+    position: absolute;
+    bottom: 155px;
+    left: 660px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-7{
+    position: absolute;
+    bottom: 155px;
+    right: 660px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-8{
+    position: absolute;
+    bottom: 155px;
+    right: 190px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-score{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+div.pre-count {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+div.inbox{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px; 
+    color: #333;
+    /* height: 60px; */
+    width: 200px;
+    margin-top: 20px;
+    /* margin-left: 10px; 
+    margin-right:20px; */
+}
+input {
+    
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px; 
+    height: 60px;
+    width: 200px;
+    /* border: 1px solid #000; */
+    /* margin-top: 10px; */
+}
+
+.button-fake{
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: red;
+    background: #eff;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    width: 100%;
+}
+
+.column.is-1 {
+    flex: none;
+    width: 12.5%;
+}
+
+.column.is-2 {
+    flex: none;
+    width: 25%;
+}
+
+.column.is-3 {
+    flex: none;
+    width: 37.5%;
+}
+
+.column.is-4 {
+    flex: none;
+    width: 50%;
+}
+
+.column.is-5 {
+    flex: none;
+    width: 62.5%;
+}
+
+.column.is-6 {
+    flex: none;
+    width: 75%;
+}
+
+.column.is-7 {
+    flex: none;
+    width: 87.5%;
+}
+
+.column.is-8 {
+    flex: none;
+    width: 100%;
+}
+
+.column.is-9 {
+    flex: none;
+    width: 110%;
+}
+.column.is-10{
+    flex: none;
+    width: 13%;
+}
+
+.two-tone-one{
+    height: 975px;
+    width: 45%; 
+}
+.two-tone-two{
+    height: 975px;
+    width: 55%; 
+}
+
+.column.is-9 {
+    flex: none;
+    width: 6.25%;
+}
+
+.column.is-10{
+    flex: none;
+    width: 13%;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FarmKid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./art.css">
+   
+</head>
+
+
+
+<body class="full">
+
+    <div class="text-block-score">
+        Score: <span id="score"></span>
+    </div>
+
+    <div class="container">
+        <img src="./resouce/pic/block/woodFame.png" alt="cow counter border" width="450px" height="300px"
+            style="position: relative">
+        <div class="div pre-count centered" id="countdown">Ready</div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <img src="./resouce/pic/block/cow-header.png" width="300px" height="300px">
+            <div class="text-block-1">
+                <span id="q1"></span>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="./resouce/pic/block/pig-header.png" width="300px" height="300px">
+            <div class="text-block-2">
+                <span id="q2"></span>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="./resouce/pic/block/cow-header.png" width="300px" height="300px">
+            <div class="text-block-3">
+                <span id="q3"></span>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="./resouce/pic/block/pig-header.png" width="300px" height="300px">
+            <div class="text-block-4">
+                <span id="q4"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns ">
+        <div class="column">
+            <img id="as1" src="./resouce/pic/fruit/Orange.png" onclick="click1()" width="250px" height="250px">
+            <div class="text-block-5">
+                <span id="a1"></span>
+            </div>
+        </div>
+        <div class="column">
+            <img id="as2" src="./resouce/pic/fruit/lemon.png" onclick="click2()" width="220px" height="180px">
+            <div class="text-block-6">
+                <span id="a2"></span>
+            </div>
+        </div>
+        <div class="column">
+            <img id="as3" src="./resouce/pic/fruit/blackberries.png" onclick="click3()" width="250px" height="250px">
+            <div class="text-block-7">
+                <span id="a3"></span>
+            </div>
+        </div>
+        <div class="column">
+            <img id="as4" src="./resouce/pic/fruit/redApple.png" onclick="click4()" width="250px" height="250px">
+            <div class="text-block-8">
+                <span id="a4"></span>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" style="color:black">หาเลขอนุกรมกันเถอะ</h4>
+
+                  </div>
+                  <div class="modal-body text-modal">
+                    <p>คลิกที่เลขอนุกรมให้ถูกต้อง.</p>
+                    <div class="text-block-score">
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" onclick="gameStart()" class="btn btn-default" data-dismiss="modal">เริ่ม</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header"style="text-align: center">
+                    <h4 class="modal-title" style="color:black">GAME OVER</h4>
+
+                  </div>
+                  <div class="modal-body text-modal">
+                            Score: <span id="score2">    </span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" onclick="gameStart()" class="btn" data-dismiss="modal">กลับหน้าหลัก</button>
+                    <button type="button" onclick="rerun()" class="btn" data-dismiss="modal">retry</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+    </div>
+
+
+
+    
+</body>
+<footer>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="game.js"></script>
+
+</footer>
+
+</html>
